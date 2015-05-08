@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* 全局样式开始 */
+body { font-family:微软雅黑; font-size:12px; color:#666; margin:0px; padding:0px; background:#F0F0F0;}
+div,ul,li,h1,h2,h3,h4,h5,h6,img,p,dl,dt,dd,ol { margin:0px; padding:0px;}
+li { list-style-type:none;}
+form,input,button,option,textarea,select { margin:0px; padding:0px;}
+input,button,textarea,select { font-family:微软雅黑; font-size:12px;}
+a { text-decoration:none; color:#000; outline:none; star:expression(this.Focus=this.blur()); -moz-transition:all ease 0.3s; -ms-transition:all ease 0.3s; -o-transition:all ease 0.3s; -webkit-transition:all ease 0.3s; transition:all ease 0.3s;}
+a:link,a:visited { text-decoration:none;}
+a:hover { text-decoration:none; color:#F08519;}
+img { border:0;}
+.clear { clear:both; height:0px; overflow:hidden;}
+.container { width:980px; margin:0px auto;}
+/* 全局样式结束 */
+
+
+/* 头部开始 */
+.head { float:left; width:100%;}
+.head .servicebar_loginbar { float:left; width:100%; height:40px; background:#59544F; font-size:14px;}
+.head .servicebar_loginbar .servicebar { float:left; height:40px;}
+.head .servicebar_loginbar .servicebar .hotline { float:left; height:40px; line-height:40px; padding-left:35px; font-weight:bold; background:url(../images/pngicon.png) no-repeat 0px 0px; color:#FFF; -webkit-text-shadow:1px 1px 0px #36322F; -moz-text-shadow:1px 1px 0px #36322F; -o-text-shadow:1px 1px 0px #36322F; -ms-text-shadow:1px 1px 0px #36322F; text-shadow:1px 1px 0px #36322F; overflow:hidden;}
+.head .servicebar_loginbar .servicebar .attention { float:left; height:40px;}
+.head .servicebar_loginbar .servicebar .attention ul { float:left; height:40px;}
+.head .servicebar_loginbar .servicebar .attention ul li { float:left; height:40px;}
+.head .servicebar_loginbar .servicebar .attention ul li .attention_text { float:left; height:40px; line-height:40px; padding-left:10px; color:#A7A4A0; -webkit-text-shadow:1px 1px 0px #36322F; -moz-text-shadow:1px 1px 0px #36322F; -o-text-shadow:1px 1px 0px #36322F; -ms-text-shadow:1px 1px 0px #36322F; text-shadow:1px 1px 0px #36322F; overflow:hidden;}
+.head .servicebar_loginbar .servicebar .attention ul li a { float:left; width:24px; height:40px; position:relative; z-index:1001; display:inline; background:url(../images/pngicon.png) no-repeat; -moz-transition:all ease 1s; -ms-transition:all ease 1s; -o-transition:all ease 1s; -webkit-transition:all ease 1s; transition:all ease 1s;}
+.head .servicebar_loginbar .servicebar .attention ul li .qq { background-position:0px -40px; margin-left:10px;}
+.head .servicebar_loginbar .servicebar .attention ul li .qq:hover { background-position:0px -80px;}
+.head .servicebar_loginbar .servicebar .attention ul li .sina { background-position:0px -120px; margin-left:6px;}
+.head .servicebar_loginbar .servicebar .attention ul li .sina:hover { background-position:0px -160px;}
+.head .servicebar_loginbar .servicebar .attention ul li .wechat { background-position:0px -200px; margin-left:10px;}
+.head .servicebar_loginbar .servicebar .attention ul li .wechat:hover { background-position:0px -240px;}
+.head .servicebar_loginbar .servicebar .attention ul li a img { display:none;}
+.head .servicebar_loginbar .servicebar .attention ul li a:hover img { position:absolute; top:30px; left:-50px; width:120px; height:130px; z-index:1002; display:block;}
+
+
+.head .servicebar_loginbar .loginbar { float:right; height:40px;}
+.head .servicebar_loginbar .loginbar ul { float:left; height:40px;max-width:590px;}
+.head .servicebar_loginbar .loginbar ul li { float:left; height:40px; line-height:40px; padding:0px 10px 0px 10px; background:url(../images/pngicon.png) no-repeat 0px -280px;}
+.head .servicebar_loginbar .loginbar ul .li_first { background:none; padding-left:20px;}
+.head .servicebar_loginbar .loginbar ul .li_first p { display:block; height:40px; position:relative;}
+.head .servicebar_loginbar .loginbar ul .li_first p img { display:block; padding-top:9px; padding-right:9px; cursor:pointer;}
+.head .servicebar_loginbar .loginbar ul .li_first p span { display:none;}
+.head .servicebar_loginbar .loginbar ul .li_first p:hover span { display:block; position:absolute; left:0px; top:40px; width:116px; height:32px; background:url(../images/red_envelopes_02.jpg) no-repeat; font-size:12px; color:#FFF; text-shadow:none; text-align:center; line-height:38px;}
+.head .servicebar_loginbar .loginbar ul li a { float:left; height:40px; color:#FFF; -webkit-text-shadow:1px 1px 0px #36322F; -moz-text-shadow:1px 1px 0px #36322F; -o-text-shadow:1px 1px 0px #36322F; -ms-text-shadow:1px 1px 0px #36322F; text-shadow:1px 1px 0px #36322F; overflow:hidden;}
+.head .servicebar_loginbar .loginbar ul li .registration { color:#F08519;}
+.head .servicebar_loginbar .loginbar ul li .login { color:#FF561A;}
+.head .servicebar_loginbar .loginbar ul li table { color:#A7A4A0; -webkit-text-shadow:1px 1px 0px #36322F; -moz-text-shadow:1px 1px 0px #36322F; -o-text-shadow:1px 1px 0px #36322F; -ms-text-shadow:1px 1px 0px #36322F; text-shadow:1px 1px 0px #36322F;}
+
+
+.head .logo_navigation { float:left; width:100%; height:100px; background:#FFF; overflow:hidden;}
+.head .logo_navigation .logo { float:left; width:200px; height:50px; padding:25px 0px; overflow:hidden;}
+.head .logo_navigation .navigation { float:right; height:40px; padding:30px 0px; overflow:hidden;}
+.head .logo_navigation .navigation ul { float:left; height:40px; overflow:hidden;}
+.head .logo_navigation .navigation ul li { float:left; height:40px; line-height:40px; padding-left:30px; overflow:hidden;}
+.head .logo_navigation .navigation ul li a { display:block; font-size:16px;}
+.head .logo_navigation .navigation ul li .cur { color:#F08519;}
+.head .logo_navigation .navigation .i_investment { float:left; height:40px; border-left:solid 1px #CCC; margin-left:30px; padding-left:30px; overflow:hidden;}
+.head .logo_navigation .navigation .i_investment a { float:left; width:90px; height:38px; line-height:38px; text-align:center; background:#E4E4E4; border:solid 1px #CCC; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; -moz-box-shadow:0px 1px 3px #CCC inset; -ms-box-shadow:0px 1px 3px #CCC inset; -o-box-shadow:0px 1px 3px #CCC inset; -webkit-box-shadow:0px 1px 3px #CCC inset; box-shadow:0px 1px 3px #CCC inset; font-size:16px; overflow:hidden;}
+.head .logo_navigation .navigation .i_investment a:hover { background:#F08519; color:#FFF; border:solid 1px #F08519; box-shadow:none;}
+.head .logo_navigation .navigation .i_investment .cur { background:#F08519; color:#FFF; border:solid 1px #F08519; box-shadow:none;}
+/*.head .logo_navigation .navigation ul li.hover .sec_nav {display: block;}
+.head .logo_navigation .navigation ul li .sec_nav {
+	position: absolute;
+	display: none;
+	left: 0;
+	top:33px;}*/
+/* 头部结束 */
+
+
+/*返回顶部开始*/
+.ReturnTop { position:fixed; right:0px; bottom:54px; z-index:1000; width:54px;}
+.ReturnTop>* { display:block; margin-top:10px;}
+.ReturnTop a { float:left; width:54px; height:54px; background:#F8A858; overflow:hidden;}
+.ReturnTop a:hover { background:#F08519;}
+.ReturnTop .wechat_img { position:absolute; top:64px; left:-179px; display:none;}
+/*返回顶部结束*/
+
+
+/* 间距填充开始 */
+.margin_top { margin-top:20px;}
+.margin_top_none { margin-top:0px;}
+.margin_right { margin-right:20px;}
+.margin_right_none { margin-right:0px;}
+.margin_bottom { margin-bottom:20px;}
+.margin_bottom_none { margin-bottom:0px;}
+.margin_left { margin-left:20px; display:inline;}
+.margin_left_none { margin-left:0px;}
+.padding_top { padding-top:20px;}
+.padding_top_none { padding-top:0px;}
+.padding_right { padding-right:20px;}
+.padding_right_none { padding-right:0px;}
+.padding_bottom { padding-bottom:20px;}
+.padding_bottom_none { padding-bottom:0px;}
+.padding_left { padding-left:20px;}
+.padding_left_none { padding-left:0px;}
+/* 间距填充结束 */
+
+
+/* 链接颜色开始 */
+.yellow_a { color:#F08519;}
+.taobao_a { color:#FF561A;}
+.taobao_a:hover { color:#FF561A;}
+.blue_a { color:#0CF;}
+.blue_a:hover { color:#0CF;}
+/* 链接颜色结束 */
+
+
+/*分页列表开始*/
+.page_list { float:left; width:100%; margin-top:30px; overflow:hidden;}
+.page_list a { display:inline-block; margin:0px 5px; padding:5px 10px; background:#F4F4F4; -moz-border-radius:3px; -ms-border-radius:3px; -o-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;}
+.page_list a:hover { background:#F08519; color:#FFF;}
+.page_list .current { background:#F08519; color:#FFF;}
+.page_list .curPageColor { background:#F08519; color:#FFF;}
+/*分页列表结束*/
+
+
+/* 开户提示开始 */
+.account_tips { float:left; width:940px; padding:0px 20px; height:40px; background:#FDD100; overflow:hidden;}
+.account_tips span { color:#FF561A; font-weight:bold;}
+/* 开户提示结束 */
+
+
+/* 中部公共开始 */
+.wrapper { float:left; width:100%; background:url(../images/wrapper_bg.png) repeat-x center top;}
+/* 中部公共结束 */
+
+
+/* 进度条开始 */
+.circliful { position:relative;}
+.circle-text, .circle-info, .circle-text-half, .circle-info-half { position:absolute; width:44px; text-align:center; display:inline-block;}
+/* 进度条结束 */
+
+
+/* 当前位置开始 */
+.position { float:left; width:980px; height:14px; line-height:14px; margin:20px 0px; overflow:hidden;}
+.position a { float:left; height:14px; background:url(../images/arrow_01.png) no-repeat right center; padding-right:15px; margin-right:10px; display:inline; overflow:hidden;}
+.position a img { float:left; width:14px; height:14px; overflow:hidden;}
+.position span { float:left; height:14px; color:#999; overflow:hidden;}
+/* 当前位置结束 */
+
+
+/* 底部开始 */
+.foot { float:left; width:100%; margin-top:20px; font-size:14px;}
+.foot .navigation { float:left; width:100%; background:#454545; color:#FFF; -moz-text-shadow:1px 1px 0px #000; -ms-text-shadow:1px 1px 0px #000; -o-text-shadow:1px 1px 0px #000; -webkit-text-shadow:1px 1px 0px #000; text-shadow:1px 1px 0px #000;}
+.foot .navigation .one { float:left; width:980px; border-bottom:solid 1px #000; padding:10px 0px; overflow:hidden;}
+.foot .navigation .one a { color:#FFF;}
+.foot .navigation .one a:hover { color:#F08519;}
+.foot .navigation .two { float:left; width:980px; padding:10px 0px 0px 0px; border-top:solid 1px #666;}
+.foot .navigation .friendship { float:left; width:980px; padding-bottom:10px; overflow:hidden;}
+.foot .navigation .friendship .left { float:left; width:80px; line-height:30px; overflow:hidden;}
+.foot .navigation .friendship .right { float:left; width:900px; overflow:hidden;}
+.foot .navigation .friendship .right a { display:inline-block; line-height:30px; padding:0px 10px; color:#FFF;}
+.foot .navigation .friendship .right a:hover { color:#F08519;}
+.foot .copyright { float:left; width:100%; background:#2E2E2E; color:#FFF; -moz-text-shadow:1px 1px 0px #000; -ms-text-shadow:1px 1px 0px #000; -o-text-shadow:1px 1px 0px #000; -webkit-text-shadow:1px 1px 0px #000; text-shadow:1px 1px 0px #000; padding:10px 0px;}
+/* 底部结束 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

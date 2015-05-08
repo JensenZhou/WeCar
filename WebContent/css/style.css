@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+
+
+.FirstAnniversary { float:left; width:100%; background:url(../images/FirstAnniversary_01.gif) repeat;}
+.FirstAnniversary .one { float:left; width:100%; height:418px; background:url(../images/FirstAnniversary_02.png) no-repeat center top;}
+
+
+.FirstAnniversary .two { float:left; width:100%; height:502px; background:url(../images/FirstAnniversary_03.png) no-repeat center top;}
+.FirstAnniversary .two .container { width:979px; height:452px; margin:0px auto; padding-top:50px; background:url(../images/FirstAnniversary_05.png) no-repeat center bottom;}
+.FirstAnniversary .two .container .left { float:left; width:463px; height:452px; overflow:hidden;}
+.FirstAnniversary .two .container .left .turntable { float:left; width:463px; height:452px; overflow:hidden;}
+.FirstAnniversary .two .container .right { float:left; width:461px; height:452px; padding-left:55px; overflow:hidden;}
+.FirstAnniversary .two .container .right .LotteryNumber { float:left; width:461px; height:118px; font-size:18px; color:#FFF; overflow:hidden;}
+.FirstAnniversary .two .container .right .LotteryNumber .span1 { font-size:30px;}
+.FirstAnniversary .two .container .right .LotteryNumber .span2 { font-weight:bold; color:#FEDA02;}
+.FirstAnniversary .two .container .right .LotteryNumber .span3 { color:#FEDA02;}
+.FirstAnniversary .two .container .right .LotteryNumber .span4 { float:left; padding:10px 30px; background:#FEDA02; color:#000; -moz-border-radius:5px; -ms-border-radius:5px; -o-border-radius:5px; -webkit-border-radius:5px; border-radius:5px; margin-top:10px; overflow:hidden;}
+.FirstAnniversary .two .container .right .WinnersList { float:left; width:412px; height:334px; padding-right:49px; overflow:hidden;}
+.FirstAnniversary .two .container .right .WinnersList .WinnersList_title { float:left; width:412px; height:61px; overflow:hidden;}
+.FirstAnniversary .two .container .right .WinnersList .WinnersList_title .span1 { font-size:24px; font-weight:bold; color:#FFF;}
+.FirstAnniversary .two .container .right .WinnersList .WinnersList_title a { color:#000;}
+.FirstAnniversary .two .container .right .WinnersList .WinnersList_content { float:left; width:412px; height:253px; padding-top:20px; overflow:hidden;}
+.FirstAnniversary .two .container .right .WinnersList .WinnersList_content ul { float:left; width:412px; overflow:hidden;}
+.FirstAnniversary .two .container .right .WinnersList .WinnersList_content ul li { float:left; width:292px; height:35px; padding:0px 60px 0px 60px; overflow:hidden;}
+
+
+.FirstAnniversary .three { float:left; width:100%; height:872px; margin-bottom:100px; background:url(../images/FirstAnniversary_06.png) no-repeat center top;}
+.FirstAnniversary .three .container { width:979px; height:872px; margin:0px auto; background:url(../images/FirstAnniversary_04.png) no-repeat center 148px;}
+.FirstAnniversary .three .container .three_title { float:left; width:979px; text-align:center; height:90px; padding-top:58px; font-size:36px; font-weight:bold; color:#FFF; overflow:hidden;}
+.FirstAnniversary .three .container .three_content { float:left; width:979px; height:724px; overflow:hidden;}
+.FirstAnniversary .three .container .three_content .number { float:left; width:979px; margin:10px 0px; overflow:hidden;}
+.FirstAnniversary .three .container .three_content .number { float:left; width:859px; padding:0px 60px; overflow:hidden;}
+.FirstAnniversary .three .container .three_content .number p { float:left; width:859px; line-height:27px; padding:5px 0px; font-size:18px; color:#FFF; overflow:hidden;}
+.FirstAnniversary .three .container .three_content .number p span { display:inline-block; width:27px; text-align:center; padding-right:8px; height:27px; background:url(../images/FirstAnniversary_07.gif) no-repeat;}
+.FirstAnniversary .three .container .three_content .number table { font-size:18px; color:#FFF;}
